@@ -27,6 +27,8 @@
       };
 
       var router = new VueRouter({
+        // URL에 #를 안나오게 하려면 mode: "history" 를 쓴다.
+        mode: "history",
         // 페이지의 라우팅 정보
         routes: [
           {
